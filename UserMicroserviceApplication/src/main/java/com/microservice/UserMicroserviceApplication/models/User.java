@@ -6,7 +6,6 @@ import lombok.*;
 
 @Entity
 @Table(name = "users")  // 👈 Change table name to avoid conflicts
-
 @Data
 @NoArgsConstructor
 @AllArgsConstructor

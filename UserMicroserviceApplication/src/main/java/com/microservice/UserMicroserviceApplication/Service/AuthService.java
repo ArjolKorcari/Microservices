@@ -12,7 +12,6 @@ public class AuthService {
 
     private final UserRepository userRepository;
 
-
     public UserResponseDto login(LoginRequest loginRequest){
 
         var user = userRepository.findByEmail(loginRequest.email());
